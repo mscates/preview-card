@@ -1,0 +1,96 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #0d1a2d;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #15273f;
+  max-width: 250px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.main-img img {
+  max-width: 250px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.main-img img:hover {
+  background: #47c4c6;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #667e9a;
+}
+
+.bottom-container img {
+  height: 10%;
+  max-width: 8%;
+  width: 100vw;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+
+.bottom-container span {
+  color: #f2ffff;
+}
+
+.bottom-container span:hover {
+  color: #47c4c6;
+  cursor: pointer;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #2f4159;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eth {
+  color: #47c4c6;
+  position: relative;
+  bottom: 2px;
+  margin-left: 2px;
+}
+
+.days {
+  color: #99afd6;
+  position: relative;
+  bottom: 2px;
+  margin-left: 3px;
+}
+
+.card p {
+  color: #bdc9d9;
+}
+
+.card h3 {
+  color: #fffeff;
+}
+
+.card h3:hover {
+  color: #47c4c6;
+  cursor: pointer;
+}

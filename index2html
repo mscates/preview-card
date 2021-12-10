@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="main-img">
+          <img src="/images/image-equilibrium.jpg" alt="" />
+        </div>
+        <h3>Equilibrium #3429</h3>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="time">
+          <div>
+            <img src="/images/icon-ethereum.svg" alt="" />
+            <span class="eth">0.041ETH</span>
+          </div>
+          <div>
+            <img src="/images/icon-clock.svg" alt="" />
+            <span class="days">3 days left</span>
+          </div>
+        </div>
+        <hr />
+        <div class="bottom-container">
+          <img src="/images/image-avatar.png" alt="" />
+          <p>Creation of <span>Jules Wyvern</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
