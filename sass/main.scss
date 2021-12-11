@@ -1,0 +1,144 @@
+/*
+I have a question about this challenge.  Why do I have to put a specific size on the 
+image-overlay class?  I assume it has to do with how I set this up, but I couldn't figure it out. 
+If I don't do this, the height of the overlay is 304px instead of 300px.  
+*/
+
+$primary1: hsl(215, 51%, 70%);
+$primary2: hsl(178, 100%, 50%);
+$neutral1: hsl(217, 54%, 11%);
+$neutral2: hsl(216, 50%, 16%);
+$neutral3: hsl(215, 32%, 27%);
+$neutral4: hsl(0, 0%, 100%);
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: $neutral1;
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card,
+.image-overlay img,
+.image-overlay::before {
+  border-radius: 10px;
+}
+
+.card {
+  background: $neutral2;
+  max-width: 300px;
+  padding: 15px;
+}
+.image-overlay {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.image-overlay img {
+  max-width: 300px;
+}
+
+.image-overlay::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: $primary2;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.eye {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-overlay:hover::before {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.image-overlay:hover .eye {
+  opacity: 1;
+}
+
+.creator {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: $primary1;
+}
+
+.creator img {
+  height: 10%;
+  max-width: 8%;
+  width: 100vw;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid $neutral4;
+  margin-right: 10px;
+}
+
+.creator span {
+  color: $neutral4;
+}
+
+.creator span:hover {
+  color: $primary2;
+  cursor: pointer;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: $neutral3;
+}
+
+.time-symbol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eth {
+  color: $primary2;
+  position: relative;
+  bottom: 2px;
+  margin-left: 2px;
+}
+
+.days {
+  color: $primary1;
+  position: relative;
+  bottom: 2px;
+  margin-left: 3px;
+}
+
+.card p {
+  color: $primary1;
+}
+
+.card h3 {
+  color: $neutral4;
+}
+
+.card h3:hover {
+  color: $primary2;
+  cursor: pointer;
+}
