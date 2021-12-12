@@ -49,6 +49,7 @@ p {
   mix-blend-mode: multiply;
   border-radius: 10px;
   transition: 0.5s ease;
+  cursor: pointer;
 }
 
 .eye {
@@ -62,6 +63,7 @@ p {
 
 .img-container:hover .eye {
   opacity: 1;
+  cursor: pointer;
 }
 
 .creator {
