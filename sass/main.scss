@@ -18,17 +18,14 @@ body {
   box-sizing: border-box;
   background: $neutral1;
   font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
   font-size: 18px;
-}
-
-.container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .card {
@@ -95,7 +92,11 @@ p {
   color: $neutral4;
 }
 
-.creator span:hover {
+.creator .creator-name {
+  color: $neutral4;
+}
+
+.creator .creator-name:hover {
   color: $primary2;
   cursor: pointer;
 }
@@ -110,6 +111,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .eth {
@@ -130,11 +132,15 @@ hr {
   color: $primary1;
 }
 
-.card h3 {
+.card a {
+  text-decoration: none;
+}
+.card .title {
+  font-size: 1.5rem;
   color: $neutral4;
 }
 
-.card h3:hover {
+.card .title:hover {
   color: $primary2;
   cursor: pointer;
 }
