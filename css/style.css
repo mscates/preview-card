@@ -22,24 +22,24 @@ p {
   border-radius: 10px;
 }
 
-.img-container {
+.top-container {
   position: relative;
   width: 100%;
 }
 
-.example {
+.img-container {
   background-color: #00fff7;
   height: 300px;
   border-radius: 10px;
 }
 
-.example img {
+.img-container img {
   max-width: 300px;
   width: 100%;
   border-radius: 10px;
 }
 
-.example img:hover {
+.img-container img:hover {
   opacity: 0.6;
   mix-blend-mode: multiply;
   border-radius: 10px;
@@ -56,7 +56,7 @@ p {
   transform: translate(-50%, -50%);
 }
 
-.img-container:hover .eye {
+.top-container:hover .eye {
   opacity: 1;
   cursor: pointer;
 }
