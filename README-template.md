@@ -45,8 +45,6 @@ Users should be able to:
 
 I learned how to use mix blend mode to create an overlay.  This was much easier than my first solution.  I also worked with transitions to make the hover state react more smoothly.  I also used sass variables to make my code easier to maintain.
 
-To see how you can add code snippets, see below:
-
 ```html
 <div class="img-container">
     <img src="/images/image-equilibrium.jpg" alt="equilibrium" />
