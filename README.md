@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mscates/preview-card)
-- Live Site URL: [Add live site URL here](https://musing-bartik-38046b.netlify.app/)
+- Solution URL: [https://github.com/mscates/preview-card](https://github.com/mscates/preview-card)
+- Live Site URL: [https://musing-bartik-38046b.netlify.app/](https://musing-bartik-38046b.netlify.app/)
 
 ## My process
 
